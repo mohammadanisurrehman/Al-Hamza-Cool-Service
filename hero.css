@@ -1,0 +1,15 @@
+/* Add as new file hero.css (linked after style.css). Old .hero/.slide/.stats CSS can be deleted. */
+.hero2{background:linear-gradient(160deg,#0b2a43,#0e4a6b);color:#fff;padding:120px 0 64px}
+.hero2-in{display:grid;grid-template-columns:1.2fr .8fr;gap:40px;align-items:center}
+.hero2 h1{font-size:clamp(1.9rem,4.5vw,3.1rem);line-height:1.15;margin:14px 0}
+.hero2 p{opacity:.9;max-width:520px}
+.hero2 .tag{display:inline-block;background:rgba(255,255,255,.12);padding:6px 12px;border-radius:99px;font-size:.85rem}
+.hero2-btns{margin-top:22px;display:flex;gap:12px;flex-wrap:wrap}
+.gauge{max-width:300px;width:100%;margin:0 auto;text-align:center;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.15);border-radius:20px;padding:18px 18px 14px}
+.gauge svg{width:100%;display:block}
+#needle{transform-origin:100px 100px;transform:rotate(-30deg);transition:transform 1.2s cubic-bezier(.3,1.4,.5,1)}
+.gauge-read{margin-top:-6px;font-size:2.4rem;font-weight:700;line-height:1}
+.gauge-read span{font-size:1.1rem;opacity:.8;margin-left:2px}
+.gauge-lbl{font-size:.8rem;opacity:.7;margin-top:4px}
+@media(max-width:760px){.hero2{padding:96px 0 44px}.hero2-in{grid-template-columns:1fr}.hero2-text{text-align:center}.hero2 p{margin:0 auto}.hero2-btns{justify-content:center}}
+@media(prefers-reduced-motion:reduce){#needle{transition:none}}
