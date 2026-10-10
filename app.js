@@ -26,4 +26,4 @@ const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.targ
 document.querySelectorAll('.reveal').forEach(e=>io.observe(e));
 
 // form -> whatsapp
-$('#f').onsubmit=e=>{e.preventDefault();const t=`Hello Al Hamza Cool Service,%0AName: ${encodeURIComponent($('#n').value)}%0APhone: ${encodeURIComponent($('#p').value)}%0AService: ${encodeURIComponent($('#s').value)}%0AProblem: ${encodeURIComponent($('#m').value)}`;window.open('https://wa.me/923111224227?text='+t,'_blank')};
+$('#f').onsubmit=e=>{e.preventDefault();const t=`Hello XXXXX Cool Service,%0AName: ${encodeURIComponent($('#n').value)}%0APhone: ${encodeURIComponent($('#p').value)}%0AService: ${encodeURIComponent($('#s').value)}%0AProblem: ${encodeURIComponent($('#m').value)}`;window.open('https://wa.me/xxxxxxxxxxxx?text='+t,'_blank')};
